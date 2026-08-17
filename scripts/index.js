@@ -71,9 +71,9 @@ function frame() {
     const deltaTime = 1 / FPS;
 
     if (dz < 2.25) {
-        dz += 1 * deltaTime;
+        dz += 0.25 * deltaTime;
     }
-    angle += Math.PI * deltaTime
+    angle += Math.PI * deltaTime / 8
     
     clear();
     
